@@ -3,10 +3,10 @@ import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
 const Header = () => {
-  const activeStyle = ' rounded-lg border-x-4 border-emerald-800 px-3 py-2';
+  const activeStyle = ' rounded-lg border-x-4 border-amber-600 px-3 py-2';
 
   return (
-    <header className="fixed top-0 w-full h-20 overflow-hidden bg-white text-emerald-800 ">
+    <header className="fixed top-0 w-full h-20 overflow-hidden bg-white text-amber-600 ">
       <div className="container flex items-center justify-between h-full px-6 mx-auto">
         <div className="flex items-center justify-start">
           <Link to="/" className="fixed text-2xl font-semibold">

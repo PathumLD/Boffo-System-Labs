@@ -8,7 +8,7 @@ const Home = () => {
       <div
         className="w-full bg-center bg-no-repeat bg-cover "
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 122, 67, 0.5), rgba(0, 134, 94, 0.637)), url(${bg1})`,
+          backgroundImage: `linear-gradient( rgba(0, 26, 139, 0.4), rgba(0, 3, 173, 0.4)), url(${bg1})`,
           height: '82vh',
           width: '100%',
           display: 'flex',

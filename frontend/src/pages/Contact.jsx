@@ -7,14 +7,14 @@ const Contact = () => {
   return (
     <div className=''>
         <div className="bg-gray-100 "
-        style={{
-            backgroundImage: `linear-gradient(rgba(1, 141, 80, 0.5), rgba(0, 161, 113, 0.637)), url(${bg8})`,
-            height: '15rem',
-            width: '100%',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-        }}>
+            style={{
+                backgroundImage: `linear-gradient( rgba(50, 88, 255, 0.637), rgba(52, 55, 235, 0.5)), url(${bg8})`,
+                height: '15rem',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+            }}>
         <div className="container px-6 mx-auto">
             <div className="flex items-center justify-center">
                 <h1 className="my-8 font-bold text-white text-7xl">Contact</h1>
@@ -24,9 +24,9 @@ const Contact = () => {
 
         
 
-        <div className='container p-4  mx-auto mt-10 rounded-xl bg-emerald-100'>
+        <div className='container p-4 mx-auto mt-10 rounded-xl bg-emerald-100'>
 
-        <div className=' grid grid-cols-2 px-4 border-b pb-10 border-emerald-600'>
+        <div className='grid grid-cols-2 px-4 pb-10 border-b border-emerald-600'>
             <div>
                 <h1 className='text-3xl font-bold'>Basic Details</h1>
                 <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.</p>
