@@ -31,7 +31,12 @@ const Header = () => {
               </NavLink>
             </li>
             <li className="">
-              <NavLink to="/careers" className={({ isActive }) => (isActive ? activeStyle : '')}>
+              <NavLink
+                to="http://localhost:5173/visitor-register"
+                className={({ isActive }) => (isActive ? activeStyle : '')}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Careers
               </NavLink>
             </li>

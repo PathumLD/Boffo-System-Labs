@@ -32,17 +32,10 @@ const Contact = () => {
                 <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.</p>
             </div>
             <div>
-                <h1 className='text-3xl font-bold'>Our Location</h1>
+                <h1 className='text-3xl font-bold'>Social Media</h1>
                 <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.</p>
             </div>
-            <div>
-                <h1 className='text-3xl font-bold'>Our Services</h1>
-                <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.</p>
-            </div>
-            <div>
-                <h1 className='text-3xl font-bold'>Contact Us</h1>
-                <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.</p>
-            </div>
+            
         </div>
 
             <div className='mx-5 my-5 '>
